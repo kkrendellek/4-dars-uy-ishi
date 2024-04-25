@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 166px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    max-width: 112px;
+}
+.logo img{
+    width: 100%;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #292830;
+    font-size: 18px;
+    font-weight: 400;
+}
+.flex_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.button{
+    width: 144px;
+    height: 40px;
+    padding: 11px, 17px;
+    border: none;
+    border-radius: 4px;
+    background: #FFD063;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #013A4C;
+}
+.button_two{
+    width: 75px;
+    height: 40px;
+    padding: 11px, 17px;
+    border: 1px solid #013A4C;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #013A4C; 
+}

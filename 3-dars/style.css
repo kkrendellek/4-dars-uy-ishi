@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    text-align: center;
+    color: red;
+    background-color: blue;
+    padding: 20px;
+    font-size: 48px;
+}
